@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'td-form';
+  loginUser(item:any){
+    console.warn(item);
+  }
 }
